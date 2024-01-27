@@ -12,6 +12,14 @@
 .nav-link{
     color: #fff;
 }
+#mainNav .navbar-brand {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  #mainNav .navbar-nav {
+    margin-top: 1rem;
+  }
+ 
 
 .bg-secondary {
     --bs-bg-opacity: 1;
@@ -143,6 +151,14 @@ body {
     box-sizing: border-box;
 }
 
+h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  @media (min-width: 1200px) {
+    h1, .h1 {
+      font-size: 2.5rem;
+    }
+  }
 .masthead {
  
     padding-top: calc(6rem + 74px);
@@ -158,11 +174,26 @@ body {
   .masthead .masthead-avatar {
     width: 15rem;
   }
+  @media (min-width: 992px) {
+    .masthead {
+      padding-top: calc(6rem + 104px);
+      padding-bottom: 6rem;
+    }
+    .masthead .masthead-heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+    .masthead .masthead-subheading {
+      font-size: 1.5rem;
+    }
+  }
 
   .page-section .page-section-heading {
     font-size: 2.25rem;
     line-height: 2rem;
 }
+
+
 
 .portfolio .portfolio-item {
     /* cursor: pointer; */
