@@ -8,13 +8,16 @@
     color: #fff;
     font-size: 1.5rem;
 }
-
+.page-section-heading{
+    font-size: 35px;
+}
 .nav-link{
     color: #fff;
 }
 #mainNav .navbar-brand {
     color: #fff;
     font-size: 1.8rem;
+
   }
   #mainNav .navbar-nav {
     margin-top: 1rem;
@@ -163,6 +166,7 @@ h1, .h1 {
  
     padding-top: calc(6rem + 74px);
     padding-bottom: 6rem;
+    
 }
 .masthead .masthead-heading{
     font-size: 2.75rem;
@@ -189,7 +193,7 @@ h1, .h1 {
   }
 
   .page-section .page-section-heading {
-    font-size: 2.25rem;
+    font-size: 3rem !important;
     line-height: 2rem;
 }
 
@@ -253,7 +257,7 @@ footer {
 
 #name{
     font-size: 1.5rem;
-    background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb);
+    background-image: #fff;
 }
 
 
