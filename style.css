@@ -1,13 +1,21 @@
 
+@media (min-width: 992px){
+#mainNav {
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    transition: padding-top 0.3s, padding-bottom 0.3s!important;
+}
+}
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 .navbar-brand {
     color: #fff;
     font-size: 1.5rem;
 }
+
 .page-section-heading{
     font-size: 35px;
 }
@@ -22,8 +30,16 @@
   #mainNav .navbar-nav {
     margin-top: 1rem;
   }
- 
 
+  h2{
+    font-weight: 700;
+  }
+ 
+@media (min-width: 992px){
+    #mainNav .navbar-nav {
+        margin-top: 0!important;
+    }
+}
 .bg-secondary {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -192,11 +208,11 @@ h1, .h1 {
     }
   }
 
-  .page-section .page-section-heading {
-    font-size: 3rem !important;
-    line-height: 2rem;
-}
+ 
 
+.lead{
+    font-weight: 400!important;
+}
 
 
 .portfolio .portfolio-item {
@@ -217,6 +233,13 @@ h1, .h1 {
     margin-right: auto;
     margin-left: auto;
 }
+@media (min-width: 992px){
+    .page-section .page-section-heading {
+        font-size: 3rem!important;
+        line-height: 2.5rem!important;
+    }
+}
+
 .page-section .page-section-heading {
     font-size: 2.25rem;
     line-height: 2rem;
@@ -236,7 +259,6 @@ h1, .h1 {
 .btn-xl {
     padding: 1rem 1.75rem;
     font-size: 1.25rem;
-    margin-bottom: 2rem;
 }
 
 .footer {
@@ -254,10 +276,4 @@ footer {
 .copyright {
     background-color: #1a252f;
 }
-
-#name{
-    font-size: 1.5rem;
-    background-image: #fff;
-}
-
 
