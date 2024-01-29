@@ -24,15 +24,21 @@
 }
 #mainNav .navbar-brand {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.75em;
 
   }
   #mainNav .navbar-nav {
     margin-top: 1rem;
   }
+  h1{
+    font-weight: 700!important;
+  }
 
   h2{
     font-weight: 700;
+  }
+  h4{
+    font-weight: 700!important;
   }
  
 @media (min-width: 992px){
