@@ -22,6 +22,9 @@
 .nav-link{
     color: #fff;
 }
+.nav-link:hover {
+    color: #1abc9c;
+  }
 #mainNav .navbar-brand {
     color: #fff;
     font-size: 1.75em;
@@ -283,3 +286,10 @@ footer {
     background-color: #1a252f;
 }
 
+a{
+    color:#1abc9c ;
+}
+
+a.colorHover:hover{
+    color:#15967d;
+}
