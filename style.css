@@ -225,7 +225,6 @@ h1, .h1 {
 
 
 .portfolio .portfolio-item {
-    /* cursor: pointer; */
     position: relative;
     display: block;
     max-width: 25rem;
@@ -293,3 +292,4 @@ a{
 a.colorHover:hover{
     color:#15967d;
 }
+
